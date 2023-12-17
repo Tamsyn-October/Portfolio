@@ -13,4 +13,4 @@ I have designed and coded the following tasks thus far:
 2. Landing Page Project - https://tamsyn-october-landingpage-codsoft.netlify.app/ 
    This user-friendly project design  involved creating columns, different sections, arranging items, and adding headers and footers. It also required
    using alignments, padding, colour palettes, boxes, and other elements. 
-   HTML - CSS
+   HTML - CSS - Javascript 
