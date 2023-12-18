@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaq.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <section id="nav_section">
+    <div class="navbar">
+      <nav class="nav-info" id="home">
+        <ul class="navlinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="home_page">
+    <div class="home-info">
+      <h2 class="homepage">Hello, I am</h2>
+      <h1 class="homepage">Tamsyn October</h1>
+      <h3 class="homepage">Aspiring Frontend Developer</h3>
+    </div>
+
+    <div class="social-icons">
+      <i class="fa-brands fa-facebook"
+        onclick="location.href='https://www.facebook.com/tamsyn.salmons.5?mibextid=kFxxJD'"></i>
+      <i class="fa-brands fa-square-instagram"
+        onclick="location.href='https://instagram.com/tamsynoctober?igshid=OGQ5ZDc2ODk2ZA=='"></i>
+      <i class="fa-brands fa-linkedin"
+        onclick="location.href='https://www.linkedin.com/in/tamsyn-october-1932361a1'"></i>
+      <i class="fa-brands fa-github"
+        onclick="location.href='https://github.com/Tamsyn-October/Codsoft-Internship.git'"></i>
+    </div>
+
+  </section>
+
+  <section id="about_section">
+    <h2 class="head" id="about">ABOUT ME</h2>
+
+    <p class="about-info">Having recently obtained my BCom degree in Project Management, I have developed a
+      keen interest in Software Development over the past six months. I use my spare time to acquire new
+      skills and engage in various projects. My commitment and dedication is focused on achieving success
+      within the tech industry. &nbsp; &nbsp;<i class="fa-solid fa-laptop-code"></i></p>
+    <img src="TO2.jpg" alt="me" class="my-image">
+  </section>
+
+  <section id="education_section">
+    <h2 class="head2" id="education">MY EDUCATION</h2>
+    <div class="container-education">
+      <div class="row">
+        <div class="col">
+          <h3 class="year">2019</h3>
+          <h4 class="edu-text">NSC Certificate</h4>
+        </div>
+
+        <div id="arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+
+        <div class="col">
+          <h3 class="year">2020</h3>
+          <h4 class="edu-text">Certificates</h4>
+          <p class="detail">1. Entrepreneurship</p>
+          <p class="detail">2. The nature of business</p>
+        </div>
+
+        <div id="arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+
+        <div class="col">
+          <h3 class="year">2021-2023</h3>
+          <h4 class="edu-text">BCom Degree</h4>
+          <p class="detail">Project Management</p>
+        </div>
+      </div>
+    </div>
+    <div class="cv">
+      <button class="btn-cv"><a href="CV of Tamsyn October.pdf">Download CV</a></button>
+    </div>
+  </section>
+
+  <section id="skills_section">
+    <h2 class="head" id="skills">MY SKILLS</h2>
+
+    <div class="container-skills">
+      <div class="container1">
+
+        <h3 class="class">Personal soft skills</h3>
+
+        <p class="skill-text">Problem-solving</p>
+        <div class="backg">
+          <div class="fill1"></div>
+        </div>
+
+        <p class="skill-text">Time management</p>
+        <div class="backg">
+          <div class="fill2"></div>
+        </div>
+
+        <p class="skill-text">Communication</p>
+        <div class="backg">
+          <div class="fill3"></div>
+        </div>
+
+      </div>
+
+      <div class="container2">
+
+        <h3 class="class">Programming skills</h3>
+        <p class="skill-text">HTML</p>
+        <div class="backg">
+          <div class="fill4"></div>
+        </div>
+
+        <p class="skill-text">CSS</p>
+        <div class="backg">
+          <div class="fill5"></div>
+        </div>
+
+        <p class="skill-text">Javascript</p>
+        <div class="backg">
+          <div class="fill6"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects-section">
+    <h2 class="head" id="projects">MY PROJECTS</h2>
+
+    <div class="container-projects">
+      <div class="project-row">
+
+        <div class="project-col">
+          <div class="project-links"></div>
+          <h3 class="project-title">Project 1</h3>
+          <p class="project-text">My Landing Page</p>
+          <button class="btn" onclick="location.href='https://tamsyn-october-landingpage-codsoft.netlify.app/'">Live
+            Demo</button>
+          <button class="btn"
+            onclick="location.href='https://github.com/Tamsyn-October/Codsoft-Internship.git'">Github</button>
+        </div>
+
+        <div class="project-col">
+          <div class="project-links"></div>
+          <h3 class="project-title">Project 2</h3>
+          <p class="project-text">My Calculator</p>
+          <button class="btn" onclick="location.href='https://tamsyn-october-calculator-codsoft.netlify.app/'">Live
+            Demo</button>
+          <button class="btn"
+            onclick="location.href='https://github.com/Tamsyn-October/Codsoft-Internship.git'">Github</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact_section">
+    <h2 class="head3" id="contact">CONTACT ME</h2>
+
+    <div class="container-contact">
+      <div class="contact-info">
+        <i class="fa-solid fa-earth-americas" id="contact-icon"></i>
+        <p class="contact-no">South Africa</p>
+      </div>
+
+      <div class="contact-info">
+        <i class="fa-solid fa-envelope" id="contact-icon"></i>
+        <p class="contact-email"
+          onclick="location.href='https://mail.google.com/mail/?view=cm&fs=1&to=email@domain.example'">
+          tamsynoctober15@gmail.com
+        </p>
+      </div>
+
+      <div class="contact-info">
+        <i class="fa-solid fa-phone" id="contact-icon"></i>
+        <p class="contact-no">+27 74 863 7841</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer_section">
+
+    <div class="container-footer">
+      <div class="socials">
+        <i class="fa-brands fa-facebook"
+          onclick="location.href='https://www.facebook.com/tamsyn.salmons.5?mibextid=kFxxJD'"></i>
+        <i class="fa-brands fa-square-instagram"
+          onclick="location.href='https://instagram.com/tamsynoctober?igshid=OGQ5ZDc2ODk2ZA=='"></i>
+        <i class="fa-brands fa-linkedin"
+          onclick="location.href='https://www.linkedin.com/in/tamsyn-october-1932361a1'"></i>
+        <i class="fa-brands fa-github"
+          onclick="location.href='https://github.com/Tamsyn-October/Codsoft-Internship.git'"></i>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright. &#169;2023. All rights reserved</p>
+      </div>
+
+      <div class="home-footer">
+        <p><a href="#home" id="home-text">Home</a></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+/*Responsive Design: Tablet*/
+
+@media only screen and (max-width: 1100px) {
+  .nav-info {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  /*Home*/
+
+  .home-info {
+    top: 30%
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    margin-left: 42%;
+    top: 20rem;
+  }
+
+  /*About*/
+
+  #about_section {
+    height: 46vh;
+  }
+
+  .head {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-info {
+    margin-left: 3rem;
+    padding: 0;
+    font-size: 12px;
+  }
+
+  .my-image {
+    width: 12rem;
+    margin-right: 3rem;
+    margin-top: -15rem;
+    padding: 1rem;
+  }
+
+  /*Education*/
+  #education_section {
+    height: 50vh;
+  }
+
+  #arrow {
+    width: 1rem;
+  }
+
+  .btn-cv {
+    padding: 8px;
+    font-size: 0.9rem;
+    width: 8rem;
+  }
+
+  .edu-text,
+  .year,
+  .institution,
+  .detail {
+    text-align: center;
+  }
+
+  .year {
+    font-size: 16px;
+  }
+
+  .detail {
+    font-size: 12px;
+  }
+
+  .edu-text {
+    font-size: 12px;
+  }
+
+  /*Skills*/
+  #skills_section {
+    height: 40vh
+  }
+
+  .backg {
+    background-color: grey;
+    width: 40%;
+    border-radius: 2rem;
+    margin-left: 1rem;
+  }
+
+  .fill1,
+  .fill2,
+  .fill3,
+  .fill4,
+  .fill5,
+  .fill6 {
+    height: 10px;
+    background-color: black;
+    font-size: 10px;
+    padding: 0
+  }
+
+  .skill-text {
+    font-size: 14px;
+    margin-left: 10rem;
+  }
+
+  /*Projects*/
+  #projects-section {
+    height: 40vh
+  }
+
+  .project-col {
+    height: 10rem;
+    padding: 1.8rem
+  }
+
+  .project-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 2rem;
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    width: 6rem;
+    font-size: 0.7rem;
+  }
+
+  /*Contact*/
+  #contact_section {
+    height: 25vh;
+  }
+
+  .contact-email,
+  .contact-no {
+    font-size: 12px;
+  }
+
+  /*Footer*/
+  #home-text {
+    font-size: 12px;
+  }
+}
+
+/*Responsive Design: Mobile*/
+
+@media only screen and (max-width: 850px) {
+  .nav-info {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  /*Home*/
+
+  .home-info {
+    top: 35%
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .social-icons {
+    margin-left: 35%;
+    top: 20rem;
+  }
+
+  /*About*/
+
+  #about_section {
+    height: 50vh;
+  }
+
+  .head {
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .about-info {
+    margin-left: 2rem;
+    padding: 0;
+    font-size: 12px;
+    line-height: 1.4rem;
+  }
+
+  .my-image {
+    width: 10rem;
+    margin-right: 1rem;
+    margin-top: -12rem;
+    padding: 1rem;
+  }
+
+  /*Education*/
+  #education_section {
+    height: 48vh;
+  }
+
+  #arrow {
+    display: none;
+  }
+
+  .btn-cv {
+    padding: 8px;
+    font-size: 0.6rem;
+    width: 5rem;
+  }
+
+  .head2 {
+    margin-top: 0;
+  }
+
+  .edu-text,
+  .year,
+  .institution,
+  .detail {
+    text-align: center;
+  }
+
+  .year {
+    font-size: 14px;
+  }
+
+  .detail {
+    font-size: 11px;
+  }
+
+  .edu-text {
+    font-size: 10px;
+  }
+
+  .col {
+    border: solid black 2px;
+    border-radius: 2rem;
+    margin: 0 7px 2px 2px;
+    padding: 1rem;
+  }
+
+  /*Skills*/
+  #skills_section {
+    height: 30
+  }
+
+  .backg {
+    background-color: grey;
+    width: 30%;
+    border-radius: 2rem;
+    margin-left: 2rem;
+  }
+
+  .fill1,
+  .fill2,
+  .fill3,
+  .fill4,
+  .fill5,
+  .fill6 {
+    height: 10px;
+    background-color: black;
+    padding: 0
+  }
+
+  .skill-text {
+    font-size: 12px;
+    margin-left: 7rem;
+  }
+
+  /*Projects*/
+  #projects-section {
+    height: 40vh
+  }
+
+  .project-col {
+    height: 10rem;
+    padding: 1.6rem
+  }
+
+  .project-text {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    line-height: 1.8rem;
+  }
+
+  .project-title {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    width: 5rem;
+    font-size: 0.6rem;
+  }
+
+  /*Contact*/
+  #contact_section {
+    height: 30vh;
+  }
+
+  .head3 {
+    margin: 0;
+  }
+
+  .container-contact {
+    height: 20px;
+    margin: 0;
+    display: inline;
+    justify-content: center;
+  }
+
+  .contact-info {
+    align-items: center;
+    text-align: center;
+    gap: 0.1rem;
+    margin: 8px;
+  }
+
+  .contact-email,
+  .contact-no {
+    font-size: 12px;
+  }
+
+  /*Footer*/
+  #home-text {
+    font-size: 11px;
+  }
+
+  .copyright {
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+  }
+
+}

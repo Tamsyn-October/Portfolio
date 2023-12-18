@@ -1,0 +1,483 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Navigation Section*/
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  float: right;
+  width: 100%;
+  text-align: right;
+  padding-right: 8%;
+  background-color: transparent;
+}
+
+li {
+  display: inline-block;
+}
+
+.navlinks li {
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 20px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+/*Hamburger Menu Section*/
+#hamburger-nav {
+  display: none;
+  justify-content: end;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  padding: 5px
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 350px;
+}
+
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child {
+  transform: none
+}
+
+.hamburger-icon span:first-child {
+  opacity: 1;
+}
+
+.hamburger-icon span:first-child {
+  transform: none
+}
+
+/*Home Section*/
+
+#home_page {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right,
+      white 0%,
+      white 50%,
+      black 50%,
+      black 100%)
+}
+
+.home-info {
+  position: relative;
+  top: 7rem
+}
+
+.homepage {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 28px;
+  letter-spacing: 0.3rem;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.social-icons {
+  position: relative;
+  margin-left: 38rem;
+  top: 10rem;
+  cursor: pointer;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+i {
+  text-align: center;
+  align-items: center;
+  letter-spacing: 1rem;
+  font-size: 1.4rem;
+}
+
+/*About Me Section*/
+#about_section {
+  height: 60vh;
+}
+
+.head,
+.head3 {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-info {
+  margin-left: 5rem;
+  width: 50%;
+  line-height: 2.5rem;
+  text-align: justify;
+  padding-top: 1.5rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.my-image {
+  width: 15rem;
+  float: right;
+  margin-right: 10rem;
+  margin-top: -17rem;
+  border-radius: 50%;
+  border: solid black 1px;
+  padding: 1rem;
+}
+
+/*Education Section*/
+#education_section {
+  height: 55vh;
+}
+
+.container-education {
+  background-color: white;
+  margin: 0 3.5rem;
+  padding: 2rem 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col {
+  border: solid black 2px;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.edu-text,
+.year,
+.institution {
+  text-align: center;
+}
+
+.col {
+  cursor: pointer;
+}
+
+.col:hover {
+  transform: scaleY(1.1);
+}
+
+.year {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.detail {
+  font-size: 14px;
+}
+
+#arrow {
+  margin-top: 4rem;
+}
+
+.cv {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-cv {
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 2rem;
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  width: 8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-cv:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*Skills Section*/
+#skills_section {
+  height: 50vh
+}
+
+.container-skills {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.backg {
+  background-color: grey;
+  width: 50%;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
+.class {
+  margin-bottom: 1rem;
+}
+
+.fill1,
+.fill2,
+.fill3,
+.fill4,
+.fill5,
+.fill6 {
+  height: 10px;
+  background-color: black;
+  font-size: 12px;
+  padding: 0
+}
+
+.fill1 {
+  width: 80%;
+}
+
+.fill2 {
+  width: 100%;
+}
+
+.fill3 {
+  width: 100%;
+}
+
+.fill4 {
+  width: 80%;
+}
+
+.fill5 {
+  width: 60%;
+}
+
+.fill6 {
+  width: 30%;
+}
+
+.container1,
+.container2 {
+  margin: auto;
+}
+
+.skill-text {
+  margin-left: 15rem;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/*Project Section*/
+#projects-section {
+  height: 50vh
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-col {
+  background-color: black;
+  border-radius: 2rem;
+  height: 14rem;
+  padding: 2.5rem;
+  cursor: pointer;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-col:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: solid black 5px;
+}
+
+.project-text {
+  line-height: 3rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+button {
+  padding: 5px;
+  border: solid 2px black;
+  border-color: white;
+  border-radius: 2rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  font-size: 1rem;
+  color: black;
+  width: 8rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: black;
+}
+
+/*Contact Section*/
+#contact_section {
+  height: 30vh;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+  padding: 0.5rem
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 1rem;
+}
+
+.contact-email {
+  cursor: pointer;
+}
+
+.contact-icon {
+  justify-content: center;
+  text-align: center;
+}
+
+/*Footer Section*/
+
+.container-footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: auto
+}
+
+.socials {
+  margin-left: 3rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright {
+  color: grey;
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.home-footer {
+  float: right;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+#home-text {
+  color: black;
+}
