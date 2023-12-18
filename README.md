@@ -14,3 +14,6 @@ I have designed and coded the following tasks thus far:
    This user-friendly project design  involved creating columns, different sections, arranging items, and adding headers and footers. It also required
    using alignments, padding, colour palettes, boxes, and other elements. 
    HTML - CSS - Javascript 
+3. Portfolio Project - https://tamsyn-october-portfolio-codsoft.netlify.app/
+   This project includes a header section, about section, project, skills, resume,  contact, and footer section.
+   HTML - CSS - Javascript
