@@ -1,5 +1,5 @@
 /*General*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*Navigation Section*/
@@ -65,7 +65,7 @@ li a:hover {
   height: 30px;
   width: 30px;
   cursor: pointer;
-  padding: 5px
+  padding: 5px;
 }
 
 .hamburger-icon span {
@@ -117,7 +117,7 @@ li a:hover {
 }
 
 .hamburger-icon span:first-child {
-  transform: none
+  transform: none;
 }
 
 .hamburger-icon span:first-child {
@@ -125,7 +125,7 @@ li a:hover {
 }
 
 .hamburger-icon span:first-child {
-  transform: none
+  transform: none;
 }
 
 /*Home Section*/
@@ -133,16 +133,18 @@ li a:hover {
 #home_page {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to right,
-      white 0%,
-      white 50%,
-      black 50%,
-      black 100%)
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 50%,
+    black 50%,
+    black 100%
+  );
 }
 
 .home-info {
   position: relative;
-  top: 7rem
+  top: 7rem;
 }
 
 .homepage {
@@ -290,7 +292,7 @@ i {
 
 /*Skills Section*/
 #skills_section {
-  height: 50vh
+  height: 50vh;
 }
 
 .container-skills {
@@ -318,7 +320,7 @@ i {
   height: 10px;
   background-color: black;
   font-size: 12px;
-  padding: 0
+  padding: 0;
 }
 
 .fill1 {
@@ -334,15 +336,15 @@ i {
 }
 
 .fill4 {
-  width: 80%;
+  width: 90%;
 }
 
 .fill5 {
-  width: 60%;
+  width: 80%;
 }
 
 .fill6 {
-  width: 30%;
+  width: 65%;
 }
 
 .container1,
@@ -358,7 +360,7 @@ i {
 
 /*Project Section*/
 #projects-section {
-  height: 50vh
+  height: 50vh;
 }
 
 .project-row {
@@ -427,7 +429,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   margin: 2rem auto;
-  padding: 0.5rem
+  padding: 0.5rem;
 }
 
 .contact-info {
@@ -454,7 +456,7 @@ button {
   justify-content: space-evenly;
   background-color: whitesmoke;
   padding: 5px;
-  margin: auto
+  margin: auto;
 }
 
 .socials {
